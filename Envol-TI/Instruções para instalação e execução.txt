@@ -1,41 +1,41 @@
-Prova técnica Envol TI - HBSIS
+Prova tÃ©cnica Envol TI - HBSIS
 
 
 
 Os programas foram desenvolvidos na IDE NET EXPRESS 5.1
 
 
-Para a execução dos programas:
+Para a execuÃ§Ã£o dos programas:
 
-- Baixar os programas da pasta executáveis no Git Hub;
+- Baixar os programas da pasta executÃ¡veis no Git Hub;
 
-- Deve executar o programa "PT000000", pois e ele que apresenta os menus e funções orientando os passos do usuário no sistema.
+- Deve executar o programa "PT000000", pois e ele que apresenta os menus e funÃ§Ãµes orientando os passos do usuÃ¡rio no sistema.
 
-- Nesta modalidade, pode ser reclamada a ausência de uma DLL, no caso, "CBLRTSS.DLL" que acompanha o sistema na pasta "DLL" e 
-deve ser instalada no sistema Windows, única versão que testei: instruções para instalar DLL no link https://pt.dll-files.com/support/#207776969.
+- Nesta modalidade, pode ser reclamada a ausÃªncia de uma DLL, no caso, "CBLRTSS.DLL" que acompanha o sistema na pasta "DLL" e  
+deve ser instalada no sistema Windows, Ãºnica versÃ£o que testei: instruÃ§Ãµes para instalar DLL no link https://pt.dll-files.com/support/#207776969.
 
-Além das questões de segurança envolvidas, é trabalhoso.
+AlÃ©m das questÃµes de seguranÃ§a envolvidas, Ã© trabalhoso.
 
 
-Porem o caminho mais fácil e baixar os fontes, abrir o projeto no “NET Expres” e executa-lo pelo “Animate”.
+Porem o caminho mais fÃ¡cil e baixar os fontes, abrir o projeto no â€œNET Expresâ€ e executa-lo pelo â€œAnimateâ€.
 
-Não anexei arquivos de dados para testes, com exceção de arquivos com dados para importação (dados fictícios e fora do contexto, anexados somente 
-para verificação das funções de importação de dados).
+NÃ£o anexei arquivos de dados para testes, com exceÃ§Ã£o de arquivos com dados para importaÃ§Ã£o (dados fictÃ­cios e fora do contexto, anexados somente 
+para verificaÃ§Ã£o das funÃ§Ãµes de importaÃ§Ã£o de dados).
 
-Na primeira execução ao entrar na opção de cadastros é verificada a existência dos arquivos "CLIENTES" e "VENDEDORES", caso seja, constatado  a 
-inexistência de ambos ou de um deles, será exibida a opção para cria-los.
+Na primeira execuÃ§Ã£o ao entrar na opÃ§Ã£o de cadastros Ã© verificada a existÃªncia dos arquivos "CLIENTES" e "VENDEDORES", caso seja, constatado  a 
+inexistÃªncia de ambos ou de um deles, serÃ¡ exibida a opÃ§Ã£o para cria-los.
 
 A partir dai o processo segue a ordem logica a seguir:
 
-  - Cadastros (Inclusão, alteração, exclusão) nesta sequencia, lembrando que para “alteração e exclusão” os dados devem estar inclusos, embora, 
-  seja tratada a inexistência dos mesmos, tanto para operações com "CLIENTES" como para "VENDEDORES".
+  - Cadastros (InclusÃ£o, alteraÃ§Ã£o, exclusÃ£o) nesta sequencia, lembrando que para â€œalteraÃ§Ã£o e exclusÃ£oâ€ os dados devem estar inclusos, embora, 
+  seja tratada a inexistÃªncia dos mesmos, tanto para operaÃ§Ãµes com "CLIENTES" como para "VENDEDORES".
 
-  - A opção "INCLUSÃO" auto incrementa o código. Para finalizar a mesma, bastar digitar "ZEROS" no "CNPJ ou CPF", conforme opção escolhida.
+  - A opÃ§Ã£o "INCLUSÃƒO" auto incrementa o cÃ³digo. Para finalizar a mesma, bastar digitar "ZEROS" no "CNPJ ou CPF", conforme opÃ§Ã£o escolhida.
 
-  - A opção para importação de dados independe das anteriores, pois, valida os dados a serem importados desprezando registros já cadastrados e 
+  - A opÃ§Ã£o para importaÃ§Ã£o de dados independe das anteriores, pois, valida os dados a serem importados desprezando registros jÃ¡ cadastrados e 
   ou dados faltantes.
 
-  - Todos os dados serão validados, evitando inconsistências, pelo menos as mais simples como: nome com espaços ou campos numéricos zerados. 
+  - Todos os dados serÃ£o validados, evitando inconsistÃªncias, pelo menos as mais simples como: nome com espaÃ§os ou campos numÃ©ricos zerados. 
 
 
-Os "RELATORIOS" e a "EXECUÇÃO DISTRIBUIÇÃO", seguem orientações fornecidas.
+Os "RELATORIOS" e a "EXECUÃ‡ÃƒO DISTRIBUIÃ‡ÃƒO", seguem orientaÃ§Ãµes fornecidas.
