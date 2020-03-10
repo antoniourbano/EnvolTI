@@ -1,0 +1,41 @@
+Prova técnica Envol TI - HBSIS
+
+
+
+Os programas foram desenvolvidos na IDE NET EXPRESS 5.1
+
+
+Para a execução dos programas:
+
+- Baixar os programas da pasta executáveis no Git Hub;
+
+- Deve executar o programa "PT000000", pois e ele que apresenta os menus e funções orientando os passos do usuário no sistema.
+
+- Nesta modalidade, pode ser reclamada a ausência de uma DLL, no caso, "CBLRTSS.DLL" que acompanha o sistema na pasta "DLL" e 
+deve ser instalada no sistema Windows, única versão que testei: instruções para instalar DLL no link https://pt.dll-files.com/support/#207776969.
+
+Além das questões de segurança envolvidas, é trabalhoso.
+
+
+Porem o caminho mais fácil e baixar os fontes, abrir o projeto no “NET Expres” e executa-lo pelo “Animate”.
+
+Não anexei arquivos de dados para testes, com exceção de arquivos com dados para importação (dados fictícios e fora do contexto, anexados somente 
+para verificação das funções de importação de dados).
+
+Na primeira execução ao entrar na opção de cadastros é verificada a existência dos arquivos "CLIENTES" e "VENDEDORES", caso seja, constatado  a 
+inexistência de ambos ou de um deles, será exibida a opção para cria-los.
+
+A partir dai o processo segue a ordem logica a seguir:
+
+  - Cadastros (Inclusão, alteração, exclusão) nesta sequencia, lembrando que para “alteração e exclusão” os dados devem estar inclusos, embora, 
+  seja tratada a inexistência dos mesmos, tanto para operações com "CLIENTES" como para "VENDEDORES".
+
+  - A opção "INCLUSÃO" auto incrementa o código. Para finalizar a mesma, bastar digitar "ZEROS" no "CNPJ ou CPF", conforme opção escolhida.
+
+  - A opção para importação de dados independe das anteriores, pois, valida os dados a serem importados desprezando registros já cadastrados e 
+  ou dados faltantes.
+
+  - Todos os dados serão validados, evitando inconsistências, pelo menos as mais simples como: nome com espaços ou campos numéricos zerados. 
+
+
+Os "RELATORIOS" e a "EXECUÇÃO DISTRIBUIÇÃO", seguem orientações fornecidas.
